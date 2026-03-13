@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Ulang Tahun, Nanda Vivian Ningrum!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="countdownContainer" class="countdown-container">
+        <div class="countdown-box">
+            <h1>Sesuatu yang spesial sedang disiapkan... 🤫</h1>
+            <p>Kejutan untuk Nandaa akan terbuka dalam:</p>
+            <div id="timer" class="timer">
+                <div><span id="days">Jum'at</span> Hari</div>
+                <div><span id="hours">0</span> Jam</div>
+                <div><span id="minutes">0</span> Menit</div>
+                <div><span id="seconds">0</span> Detik</div>
+            </div>
+            <p class="hint">Sabar yaa, buka lagi tanggal 14 Maret!</p>
+        </div>
+    </div>
+
+    <div id="scrapbookContent" class="hidden">
+        <div class="scrapbook-container">
+            <h1>Happy Birthday, Nanda Sayang! 🎂</h1>
+            <div class="scrapbook-slider">
+                <div class="slide active">
+                    <div class="page-item photo photo-1">
+                        <img src="Nanda1.JPG" alt="Foto Utama">
+                        <p>Selamat bertambah usia yaa!</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="page-item note">
+                        <h2>Pesan Untuk My Bubub Nanda 💌</h2>
+                        <p>Semoga panjang umur, bahagia selalu, dan semua yang dicita-citakan tercapai tahun ini. Terima
+                            kasih sudah menjadi pasangan yang baik!</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="page-item photo photo-2">
+                        <img src="Nanda2.JPG" alt="Kenangan 1">
+                        <p>Jaga Diri, Kesehatan, dan Senyumnya!</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="page-item note note-2">
+                        <h2>Wish For You ✨</h2>
+                        <p>Teruslah jadi pribadi yang ceria dan semoga dikelilingi orang yang sayang serta peduli sama
+                            Nanda. Semangat!</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="page-item photo photo-3">
+                        <img src="momen.jpg" alt="Foto Bersama">
+                        <p>Terima Kasih atas Momennya dan Maaf Belum Baik Buat Kamu ya sayang!</p>
+                    </div>
+                </div>
+            </div>
+            <button class="nav-btn prev">&#10094;</button>
+            <button class="nav-btn next">&#10095;</button>
+            <div class="closing-note">
+                <p>From Your ??,<br><strong>Aroby cowo kamu</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <canvas id="confetti"></canvas>
+    <audio id="background-music" src="lagu.mp3"loop> </audio>
+    <script src="script.js"></script>
+
+</body>
+</html>
